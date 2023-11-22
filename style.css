@@ -1,0 +1,61 @@
+.body {
+  font-family: 'Lucida Sans';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+} */
+
+#filterBar {
+    width: 100vw;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 32px;    
+}
+
+#itemsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 20px;
+}
+
+
+.item {
+    border: 1px solid rgb(85, 135, 10);
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    
+  }
+  
+  
+  .item img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .itemInfo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+ 
